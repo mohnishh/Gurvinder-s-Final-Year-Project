@@ -43,10 +43,6 @@
   			<input type="submit">
 		</form>
 		
-		<%
-		session.setAttribute("collectiondate", collection);
-		session.setAttribute("deliverydate", delivery);
-		%>
 		<p><b> Please note:</b> We will try to match your timings to the nearest hour.</p>
 		<h1>Step 2</h1>
 		<p>Please click <a href="order.jsp">here</a> to place your order.</p>
