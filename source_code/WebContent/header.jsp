@@ -5,6 +5,6 @@
 	<jsp:include page="loginForm.jsp" />
 	<jsp:include page="navmenu.jsp" /> 
 </div>	
-tests
+
         
         
