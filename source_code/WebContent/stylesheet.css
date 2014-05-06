@@ -75,6 +75,14 @@ table{
     line-height: 150%;
 }
 
+h1{
+	font-family:"Helvetica Neue", Arial, sans-serif;
+    font-weight:0;
+    font-size: 36px;
+    -webkit-font-smoothing:antialiased;
+    line-height: 150%;
+}
+
 p{
 	font-family:"Helvetica Neue", Arial, sans-serif;
     font-weight:100;
