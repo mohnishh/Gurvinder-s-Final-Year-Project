@@ -34,6 +34,49 @@
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <table>
 
+<%
+  			String cdate = request.getParameter("collection");
+			String ctime = request.getParameter("ctime");
+			String ddate = request.getParameter("delivery");
+			String dtime = request.getParameter("dtime");
+  			session.setAttribute("cdate", cdate);
+  			session.setAttribute("ctime", ctime);
+  			session.setAttribute("ddate", ddate);
+  			session.setAttribute("dtime", dtime);
+  			%>
+  			<p>
+<%
+  			if ((session.getAttribute("cdate") == null) || (session.getAttribute("cdate") == "")) {
+  			%>
+  			No collection date.
+  			<%}else{ %>
+  			Collection date set
+  			<%} %>
+  			<p>
+  			<%
+  			if ((session.getAttribute("ctime") == null) || (session.getAttribute("ctime") == "")) {
+  			%>
+  			No collection time.
+  			<%}else{ %>
+  			Collection time set
+  			<%} %>
+  			<p>
+  			<%
+  			if ((session.getAttribute("ddate") == null) || (session.getAttribute("ddate") == "")) {
+  			%>
+  			No delivery date.
+  			<%}else{ %>
+  			Delivery date set
+  			<%} %>
+  			<p>
+  			<%
+  			if ((session.getAttribute("dtime") == null) || (session.getAttribute("dtime") == "")) {
+  			%>
+  			No delivery time.
+  			<%}else{ %>
+  			Delivery time set
+  			<%} %>
+  			
 <h1>Laundry</h1>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
