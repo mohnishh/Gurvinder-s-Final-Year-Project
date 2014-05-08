@@ -31,16 +31,18 @@
 		<h1>Step 1</h1>
 		<p> Please select your collection and delivery dates.</p>
 		
-		<form action="demo_form.asp">
-  			<p>Collection date: <input type="date" name="collection">
-  			<p><input type="radio" name="ctime" value="cmorning"> 9am-12pm   </input>
+		<form action="order.jsp">
+  			<p>Collection date: <input type="date" name="collection" required>
+  			<p><input type="radio" name="ctime" value="cmorning" required> 9am-12pm   </input>
   			<input type="radio" name="ctime" value="cafternoon"> 12pm-3pm   </input>
   			<input type="radio" name="ctime" value="cevening"> 3pm-6pm   </input></p>
-  			<p>Delivery date: <input type="date" name="delivery"></p>
-  			<p><input type="radio" name="dtime" value="dmorning"> 9am-12pm   </input>
+  			<p>Delivery date: <input type="date" name="delivery" required></p>
+  			<p><input type="radio" name="dtime" value="dmorning" required> 9am-12pm   </input>
   			<input type="radio" name="dtime" value="dafternoon"> 12pm-3pm   </input>
   			<input type="radio" name="dtime" value="devening"> 3pm-6pm   </input></p>
   			<input type="submit">
+  			
+  			
 		</form>
 		
 		<p><b> Please note:</b> We will try to match your timings to the nearest hour.</p>
