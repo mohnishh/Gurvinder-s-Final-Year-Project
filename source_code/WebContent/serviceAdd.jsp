@@ -47,10 +47,10 @@
                         <td><p>Service price:</p></td>
                         <td><input type="number" step="any" name="sprice" value="" required/></td>
                     </tr>
-                    <tr>
+                    <!--tr>
                         <td><p>Service image:</p></td>
                         <td><input type="file" name="simage" value="" required/></td>
-                    </tr>
+                    </tr-->
                     <tr>
                         <td><input type="submit" value="Add" /></td>
                         <td><input type="reset" value="Reset" /></td>
