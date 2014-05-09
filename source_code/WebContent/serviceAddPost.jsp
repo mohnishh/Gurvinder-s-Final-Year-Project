@@ -30,7 +30,7 @@
             		"root", "Minniee");
     		Statement st = con.createStatement();
     		//ResultSet rs;
-    		int i = st.executeUpdate("insert into services(sname, sdescription, sprice, simage) values ('" + sname + "','" + sdescription + "','" + sprice + "','" + simage + "')");
+    		int i = st.executeUpdate("insert into services(sname, sdescription, sprice, simage) values ('" + sname + "','" + sdescription + "','" + sprice + "','" + "NULL" + "')");
     		if (i > 0) {
         	//session.setAttribute("userid", user);
         %>
