@@ -29,7 +29,7 @@
 		<td width="200px" align="center"><p><b>Name</b></p></td>
 		<td width="200px" align="center"><p><b>Description</b></p></td>
 		<td width="200px" align="center"><p><b>Price</b></p></td>
-		<td width="200px" align="center"><p><b>Image</b></p></td>
+		<!--td width="200px" align="center"><p><b>Image</b></p></td-->
 	</tr>
 <%
 		try
@@ -49,7 +49,7 @@
     				<td align="center"><p><%=rs.getString("sname") %></p></td>
     				<td align="center"><p><%=rs.getString("sdescription") %></p></td>
     				<td align="center"><p><%=rs.getDouble("sprice") %></p></td>
-    				<td align="center"><p><%=rs.getBlob("simage") %></p></td>
+    				<!--td align="center"><p><%=rs.getBlob("simage") %></p></td-->
 				</tr>
 <%
 			}
