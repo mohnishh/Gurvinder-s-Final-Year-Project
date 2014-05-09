@@ -31,10 +31,14 @@
             <table border="0" width="50%" cellpadding="5">
                 <thead>
                     <tr>
-                        <th colspan="2"><p1>Add a new service</p1></th>
+                        <th colspan="2"><p1>Update service</p1></th>
                     </tr>
                 </thead>
                 <tbody>
+                	<tr>
+                    	<td><p>Service ID:</p></td>
+                        <td><input type="int" name="serviceID" value="" required/></td>
+                    </tr>
                     <tr>
                         <td><p>Service name:</p></td>
                         <td><input type="text" name="sname" value="" required/></td>
@@ -47,14 +51,10 @@
                         <td><p>Service price:</p></td>
                         <td><input type="number" step="any" name="sprice" value="" required/></td>
                     </tr>
-                    <tr>
+                    <!--tr>
                         <td><p>Service image:</p></td>
                         <td><input type="file" name="simage" value="" required/></td>
-                    </tr>
-                    <tr>
-                    	<td><p>Service ID:</p></td>
-                        <td><input type="int" name="serviceID" value="" required/></td>
-                    </tr>
+                    </tr-->
                         <td><input type="submit" value="Add" /></td>
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
