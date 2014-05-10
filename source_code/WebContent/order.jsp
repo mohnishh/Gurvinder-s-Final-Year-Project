@@ -76,182 +76,308 @@
   			Delivery time set
   			<%} %>
 
+<h1>Book Your Service Order Now</h1>
+
+</div>
+
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td style="text-align:centre; padding-right:10px;"><ul>
+
+<!-- prods start -->
+<table border="0" cellpadding="0" cellspacing="0" class="prodtable">
 
 <h1>Laundry</h1>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TDHQEKMFYVRQY">
-<table>
-<tr><td><input type="hidden" name="on0" value="Service Wash Dry Fold">Service Wash Dry Fold</td></tr><tr><td><select name="os0">
-	<option value="Small  (per 2 kg)">Small  (per 2 kg) £7.49 GBP</option>
-	<option value="Medium (per 6 kg)">Medium (per 6 kg) £8.99 GBP</option>
-	<option value="Option (per 10 kg)">Option (per 10 kg) £9.99 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
 <h2>Household Items</h2>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="6PDAZRD6L5GLW">
-<table>
-<tr><td><input type="hidden" name="on0" value="Throw-over">Throw-over</td></tr><tr><td><select name="os0">
-	<option value="Small">Small £7.99 GBP</option>
-	<option value="Medium">Medium £8.99 GBP</option>
-	<option value="Large">Large £9.99 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-<br>
-<br>
-<br>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="XMWLPEXMYMKY8">
-<table>
-<tr><td><input type="hidden" name="on0" value="Bedspread">Bedspread</td></tr><tr><td><select name="os0">
-	<option value="Plain">Plain £8.99 GBP</option>
-	<option value="Heavy or With Valence">Heavy or With Valence £9.49 GBP</option>
-	<option value="Quilted">Quilted £14.49 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-<br>
-<br>
-<br>
+<td>
+<img src="images/laundrybasket.jpg" alt="laundry" title="Laundry"/>
+	<h3>Service Wash, Dry & Fold</h3>
+	<p>We offer service washes, and also fully finished (ironed) laundry service.</p>
+	<div> 
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="TDHQEKMFYVRQY">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Service Wash Dry Fold">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Small  (per 2 kg)">Small  (per 2 kg) £7.49 GBP</option>
+							<option value="Medium (per 6 kg)">Medium (per 6 kg) £8.99 GBP</option>
+							<option value="Option (per 10 kg)">Option (per 10 kg) £9.99 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="ACVLUG7WJ7MES">
-<table>
-<tr><td><input type="hidden" name="on0" value="Mattress Protector">Mattress Protector</td></tr><tr><td><select name="os0">
-	<option value="Single">Single £5.99 GBP</option>
-	<option value="Double">Double £6.99 GBP</option>
-	<option value="King-size">King-size £7.99 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
+<td>
+<img src="images/bedspread.jpg" alt="Bedspread"/>
+	<h3>Bedspread</h3>
+	<p>Plain, heavy or with valence, quilted bedspread, we provide service on all.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">   
+			<input type="hidden" name="hosted_button_id" value="XMWLPEXMYMKY8">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Bedspread">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Plain">Plain £8.99 GBP</option>
+							<option value="Heavy or With Valence">Heavy or With Valence £9.49 GBP</option>
+							<option value="Quilted">Quilted £14.49 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/throwover.jpg" alt="Throw-overs"/>
+	<h3>Throw-over</h3>
+	<p> We provide service from small to large. We will dry, iron and beautifully fold your throw-over.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">   
+			<input type="hidden" name="hosted_button_id" value="6PDAZRD6L5GLW">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Throw-over">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Small">Small £7.99 GBP</option>
+							<option value="Medium">Medium £8.99 GBP</option>
+							<option value="Large">Large £9.99 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/blanket.jpg" alt="Blanket"/>
+	<h3>Blanket</h3>
+	<p>Blankets are serviced on all styles and sizes, for use in the stable or for turnout.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">   
+			<input type="hidden" name="hosted_button_id" value="PQMLU4XXM5SPE">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Blanket">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Single">Single £8.49 GBP</option>
+							<option value="Double">Double £9.49 GBP</option>
+							<option value="King-size">King-size £10.49 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+ 
+<td>
+<img src="images/mattress.jpg" alt="Mattress"/>
+	<h3>Mattress</h3>
+	<p>Use special cleaning products to get your upholstery or mattress thoroughly cleaned and smelling like new again.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="ACVLUG7WJ7MES">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Mattress Protector">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Single">Single £5.99 GBP</option>
+							<option value="Double">Double £6.99 GBP</option>
+							<option value="King-size">King-size £7.99 GBP</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+</tr>
+
+<td>
+<img src="images/duvetcover.jpg" alt="Duvet Cover"/> 
+	<h3>Duvet Cover</h3>
+	<p>Duvet Cover washed in large drum machines, beatifully dried, ironed and folded.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="S8NERWPEY5ARY">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Duvet Cover">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Single">Single £9.49 GBP</option>
+							<option value="Double">Double £10.49 GBP</option>
+							<option value="King-size">King-size £11.99 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/sofacover.jpg" alt="Sofa Cover"/>
+	<h3>Sofa Cover</h3>
+	<p>Cleaning removable sofa covers, getting rid of all sort of stains or marks.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="E8YCWUJQ5BKZN">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Price">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Two Seater Cover">Two Seater Cover £11.99 GBP</option>
+							<option value="Three Seater Cover">Three Seater Cover £12.99 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/chaircover.jpg" alt="Chair Cover"/>
+	<h3>Chair Cover</h3>
+	<p>Cleaning removable chair covers, getting rid of all sort of stains or marks.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="JNNFL8DQ5WVA2">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Price">Price: £8.49 GBP
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/sheet.jpg" alt=""/>
+	<h3>Sheet</h3>
+	<p>Sheets are washed deeply, go through steam-powered ironers, dried, pressed and folded.</p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">   
+			<input type="hidden" name="hosted_button_id" value="PQMLU4XXM5SPE">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Sheet">Price:
+					</td>
+					<td>
+						<select name="os0">
+							<option value="Single">Single £8.49 GBP</option>
+							<option value="Double">Double £9.49 GBP</option>
+							<option value="King-size">King-size £10.49 GBP</option>
+						</select> 
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+
+<td>
+<img src="images/pillowcase.jpg" alt="Pillow Cover"/>
+	<h3>Pillow Cover</h3>
+	<p>Good value , good size deeply cleaned, ironed and folded perfectly. </p>
+	<div>
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">   
+			<input type="hidden" name="hosted_button_id" value="AFLQ336QTS95J">
+			<table>
+				<tr>
+					<td>
+						<input type="hidden" name="on0" value="Pillow Cover">Price: £1.49 GBP
+					</td>
+				</tr>
+			</table>
+			<input type="hidden" name="currency_code" value="GBP">
+			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</td>
+</tr>
 
 
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="PQMLU4XXM5SPE">
-<table>
-<tr><td><input type="hidden" name="on0" value="Blanket">Blanket</td></tr><tr><td><select name="os0">
-	<option value="Single">Single £8.49 GBP</option>
-	<option value="Double">Double £9.49 GBP</option>
-	<option value="King-size">King-size £10.49 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="S8NERWPEY5ARY">
-<table>
-<tr><td><input type="hidden" name="on0" value="Duvet Cover">Duvet Cover</td></tr><tr><td><select name="os0">
-	<option value="Single">Single £9.49 GBP</option>
-	<option value="Double">Double £10.49 GBP</option>
-	<option value="King-size">King-size £11.99 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="E8YCWUJQ5BKZN">
-<table>
-<tr><td><input type="hidden" name="on0" value="Sofa Cover">Sofa Cover</td></tr><tr><td><select name="os0">
-	<option value="Two Seater Cover">Two Seater Cover £11.99 GBP</option>
-	<option value="Three Seater Cover">Three Seater Cover £12.99 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<p>Chair Cover</p>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="JNNFL8DQ5WVA2">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="974LKRBN462Q4">
-<table>
-<tr><td><input type="hidden" name="on0" value="Cushion Cover">Cushion Cover</td></tr><tr><td><select name="os0">
-	<option value="Plain">Plain £3.99 GBP</option>
-	<option value="Quilted">Quilted £4.99 GBP</option>
-	<option value="Heavy/ Fur Fabric">Heavy/ Fur Fabric £5.49 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<p>Sheet Item</p>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SDP3MWW7YHMQ6">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="24FXYTTK7BY44">
-<table>
-<tr><td><input type="hidden" name="on0" value="Towels">Towels</td></tr><tr><td><select name="os0">
-	<option value="Medium (per 6 kg)">Medium (per 6 kg) £7.99 GBP</option>
-	<option value="Medium (per 10 kg)">Medium (per 10 kg) £10.49 GBP</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="GBP">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<p>Pillow Case</p>
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="AFLQ336QTS95J">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-<p>Sleeping Bag</p>
+<!-- <p>Sleeping Bag</p>
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="Q7P3VCVGWPEVA">
 <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
+</form>-->
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -725,250 +851,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-<h1>Book Your Service Order Now</h1>
-
-</div>
-
-<table cellpadding="0" cellspacing="0" border="0">
-<tr><td style="text-align:centre; padding-right:10px;"><ul>
-
-<!-- prods start -->
-<table border="0" cellpadding="0" cellspacing="0" class="prodtable">
-
-
-<td>
-<img src="images/laundrybasket.jpg" alt="laundry" title="Laundry"/>
-	<h3>Service Wash, Dry & Fold</h3>
-	<p>We offer service washes, and also a fully finished (ironed) laundry service...</p>
-	<div> 
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="TDHQEKMFYVRQY">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Service Wash Dry Fold">Price:
-					</td>
-					<td>
-						<select name="os0">
-							<option value="Small  (per 2 kg)">Small  (per 2 kg) £7.49 GBP</option>
-							<option value="Medium (per 6 kg)">Medium (per 6 kg) £8.99 GBP</option>
-							<option value="Option (per 10 kg)">Option (per 10 kg) £9.99 GBP</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-<td>
-<img src="images/bedspread.jpg" alt="Bedspread"/>
-	<h3>Bedspread</h3>
-	<p>Plain, Heavy or with valence, quileted bedspread, we provide service on all...</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">   
-			<input type="hidden" name="hosted_button_id" value="XMWLPEXMYMKY8">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Prices">Price:
-					</td>
-					<td>
-						<select name="os0">
-							<option value="Plain">Plain £8.99 GBP</option>
-							<option value="Heavy or With Valence">Heavy or With Valence £9.49 GBP</option>
-							<option value="Quilted">Quilted £14.49 GBP</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-<td>
-<img src="images/throwover.jpg" alt="Throw-overs"/>
-	<h3>Throw-over</h3>
-	<p>Throw-over, we provide service on all types of throw-overs...</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">   
-			<input type="hidden" name="hosted_button_id" value="6PDAZRD6L5GLW">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Throw-over">Price:
-					</td>
-					<td>
-						<select name="os0">
-							<option value="Small">Small £7.99 GBP</option>
-							<option value="Medium">Medium £8.99 GBP</option>
-							<option value="Large">Large £9.99 GBP</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-<td>
-<img src="images/blanket.jpg" alt="Bedspread"/>
-	<h3>Blanket</h3>
-	<p>Blanket, Heavy or with valence, quileted bedspread, we provide service on all...</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">   
-			<input type="hidden" name="hosted_button_id" value="PQMLU4XXM5SPE">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Blanket">Price:
-					</td>
-					<td>
-						<select name="os0">
-							<option value="Single">Single £8.49 GBP</option>
-							<option value="Double">Double £9.49 GBP</option>
-							<option value="King-size">King-size £10.49 GBP</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-</tr>
-
-<tr>
- 
-<td>
-<img src="images/mattress.jpg" alt="Bedspread"/>
-	<h3>Mattress</h3>
-	<p>Mattress. Heavy or with valence, quileted bedspread, we provide service on all...</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="ACVLUG7WJ7MES">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Mattress Protector">Mattress Protector
-					</td>
-					<td>
-						<select name="os0">
-							<option value="Single">Single £5.99 GBP</option>
-							<option value="Double">Double £6.99 GBP</option>
-							<option value="King-size">King-size £7.99 GBP</option>
-						</select>
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-
-<td>
-<img src="images/spacer.gif"/> 
-	<h3>DEMOGRASS</h3>
-	<p>With Demograss you can lose weigh blah blah blah blah...</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="EV5K38JN5P6VS">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Prices">Prices
-					</td>
-					<td>
-						<select name="os0">
-							<option value="1 Box">1 Box $25.99 USD</option>
-							<option value="2 Boxes">2 Boxes $48.00 USD</option>
-							<option value="4 Boxes">4 Boxes $95.00 USD</option>
-							<option value="6 Boxes">6 Boxes $138.00 USD</option>
-							<option value="10 Boxes">10 Boxes $225.00 USD</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-
-<td>
-<img src="images/spacer.gif">
-	<h3>DEMOGRASS PLUS</h3>
-	<p>Demograss plus same as demograss original but with maximum strength.</p>
-	<div>
-		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="BX2KZX8RBHQES">
-			<table>
-				<tr>
-					<td>
-						<input type="hidden" name="on0" value="Prices">Prices
-					</td>
-					<td>
-						<select name="os0">
-							<option value="1 Box">1 Box $30.99 USD</option>
-							<option value="2 Boxes">2 Boxes $60.50 USD</option>
-							<option value="4 Boxes">4 Boxes $122.00 USD</option>
-							<option value="6 Boxes">6 Boxes $181.00 USD</option>
-							<option value="10 Boxes">10 Boxes $290.00 USD</option>
-						</select> 
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="GBP">
-			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal  The safer, easier way to pay online.">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-</td>
-
-</tr>
-
-
-
-
-
-
-
-
 </body>
 </html>
-
-
-
