@@ -33,6 +33,7 @@
 		<a href='serviceAdd.jsp'><p>---Add service---</p></a>
 		<a href='serviceUpdate.jsp'><p>---Update service---</p></a>
 		<a href='serviceDelete.jsp'><p>---Delete service---</p></a>
+		<a href='orderHistory.jsp'><p>---View order history---</p></a>
 	</div>
 </div>
 
