@@ -27,10 +27,9 @@
 </div>
 <div id="contentbackground">
 	<div id="content" align="center">
-		<p><b>Customer login Page</b></p>
+		<p><b>Customer Panel</b></p>
 		<p> Welcome to the customer panel.</p>
-		<h1>Step 1</h1>
-		<p> Please select your collection and delivery dates.</p>
+		<p> Please select your collection and delivery dates and times.</p>
 		
 		<form action="order.jsp">
   			<p>Collection date: <input type="date" name="cdate" required>
@@ -46,9 +45,6 @@
   			
 		</form>
 		
-		<p><b> Please note:</b> We will try to match your timings to the nearest hour.</p>
-		<h1>Step 2</h1>
-		<p>Please click <a href="order.jsp">here</a> to place your order.</p>
 	</div>
 	
 	
