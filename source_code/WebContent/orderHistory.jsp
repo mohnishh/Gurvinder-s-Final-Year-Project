@@ -26,6 +26,7 @@
 
 <table border="0">
 	<tr>
+		<td width="200px" align="center"><p><b>Customer</b></p></td>
 		<td width="200px" align="center"><p><b>Collection Date</b></p></td>
 		<td width="200px" align="center"><p><b>Collection Time</b></p></td>
 		<td width="200px" align="center"><p><b>Delivery Date</b></p></td>
@@ -48,6 +49,7 @@
 			{
 %>
     			<tr>
+    				<td align="center"><p><%=rs.getString("user") %></p></td>
     				<td align="center"><p><%=rs.getString("cDate") %></p></td>
     				<td align="center"><p><%=rs.getString("cTime") %></p></td>
     				<td align="center"><p><%=rs.getString("dDate") %></p></td>
