@@ -28,7 +28,7 @@
 	<tr>
 		<td width="200px" align="center"><p><b>Name</b></p></td>
 		<td width="200px" align="center"><p><b>Description</b></p></td>
-		<td width="200px" align="center"><p><b>Price</b></p></td>
+		<td width="200px" align="center"><p><b>Price (£)</b></p></td>
 		<!--td width="200px" align="center"><p><b>Image</b></p></td-->
 	</tr>
 <%
