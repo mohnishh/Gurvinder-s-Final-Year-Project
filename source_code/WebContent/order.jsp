@@ -47,7 +47,7 @@
   		            "root", "Minniee");
   		    Statement st = con.createStatement();
   		    //ResultSet rs;
-  		    int i = st.executeUpdate("insert into sessionHolder(cDate, cTime, dDate, dTime, sysDate) values ('" + cdate + "','" + ctime + "','" + ddate + "','" + dtime + "', CURDATE() )");
+  		    int i = st.executeUpdate("insert into sessionHolder(cDate, cTime, dDate, dTime, sysDate, user) values ('" + cdate + "','" + ctime + "','" + ddate + "','" + dtime + "', CURDATE() ,'" + session.getAttribute("userid") + "')");
   		    if (i > 0) {
   		    	session.setAttribute("cdate", cdate);
   	  			session.setAttribute("ctime", ctime);
