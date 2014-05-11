@@ -34,17 +34,34 @@
 
 
 <%
-  			String cdate = request.getParameter("collection");
+  			String cdate = request.getParameter("cdate");
 			String ctime = request.getParameter("ctime");
-			String ddate = request.getParameter("delivery");
+			String ddate = request.getParameter("ddate");
 			String dtime = request.getParameter("dtime");
   			session.setAttribute("cdate", cdate);
   			session.setAttribute("ctime", ctime);
   			session.setAttribute("ddate", ddate);
   			session.setAttribute("dtime", dtime);
+  			Class.forName("com.mysql.jdbc.Driver");
+  		    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hobbs",
+  		            "root", "Minniee");
+  		    Statement st = con.createStatement();
+  		    //ResultSet rs;
+  		    int i = st.executeUpdate("insert into sessionHolder(cDate, cTime, dDate, dTime, sysDate) values ('" + cdate + "','" + ctime + "','" + ddate + "','" + dtime + "', CURDATE() )");
+  		    if (i > 0) {
+  		    	session.setAttribute("cdate", cdate);
+  	  			session.setAttribute("ctime", ctime);
+  	  			session.setAttribute("ddate", ddate);
+  	  			session.setAttribute("dtime", dtime);
+  		        //session.setAttribute("userid", user);
+  		        //response.sendRedirect("order.jsp");
+  		       // out.print("You have sucessfully registered! Click"+"<a href='index.jsp'>here</a> to log in.");
+  		    } else {
+  		        response.sendRedirect("success.jsp");
+  		    }
   			%>
   			<p>
-<%
+<%-- <%
   			if ((session.getAttribute("cdate") == null) || (session.getAttribute("cdate") == "")) {
   			%>
   			No collection date.
@@ -74,7 +91,7 @@
   			No delivery time.
   			<%}else{ %>
   			Delivery time set
-  			<%} %>
+  			<%} %> --%>
 
 <h1>Book Your Service Order Now</h1>
 
