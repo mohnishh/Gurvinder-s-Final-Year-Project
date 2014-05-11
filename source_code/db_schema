@@ -66,3 +66,13 @@ create table customer(
 	business INT (2),
 	PRIMARY KEY (customerID)
 );
+
+DROP TABLE IF EXISTS sessionHolder
+create table sessionHolder(
+	cDate VARCHAR(10),
+	cTime VARCHAR(10),
+	dDate VARCHAR(10),
+	dTime VARCHAR(10),
+	sysDate date
+);
+
