@@ -1,25 +1,40 @@
-create table members(
-	first_name VARCHAR (20), 
-	last_name VARCHAR (20), 
-	email VARCHAR (50), 
-	uname VARCHAR (20), 
-	pass VARCHAR (20), 
-	regdate VARCHAR (10)
-);
-
-
-[21-02-2014][23:05] - new schema:
-[02-05-2014][21:49] - new schema:
-
 DROP TABLE IF EXISTS services;
 create table services(
 	serviceID int NOT NULL AUTO_INCREMENT,
-	sname VARCHAR (20),
+	sname VARCHAR (50),
 	sdescription VARCHAR (500),
 	sprice DOUBLE(8,2),
 	simage BLOB,
 	PRIMARY KEY (serviceID)
 );
+
+insert into services (sname, sdescription, sprice)
+values
+	("Service Wash, Dry & Fold", "Small (per 2kg)", 7.49),
+	("Service Wash, Dry & Fold", "Medium (per 6kg)", 8.99),
+	("Service Wash, Dry & Fold", "Large (per 10kg)", 9.99),
+	("Bedspread", "Plain", 8.99),
+	("Bedspread", "Heavy or with Valence", 9.49),
+	("Bedspread", "Quilted", 14.49),
+	("Throw-over", "Small", 7.99),
+	("Throw-over", "Medium", 8.99),
+	("Throw-over", "Large", 9.99),
+	("Blanket", "Single", 8.49),
+	("Blanket", "Double", 9.49),
+	("Blanket", "King-size", 10.49),
+	("Mattress", "Single", 5.99),
+	("Mattress", "Double", 6.99),
+	("Mattress", "King-size", 7.49),
+	("Duvet Cover", "Single", 9.49),
+	("Duvet Cover", "Double", 10.49),
+	("Duvet Cover", "King-size", 11.49),
+	("Sofa Cover", "Two Seater Cover", 11.99),
+	("Sofa Cover", "Three Seater Cover", 12.99),
+	("Chair Cover", "Cleaning removable chair covers, getting rid of all sort of stains or marks.", 8.49),
+	("Sheet", "Single", 8.49),
+	("Sheet", "Double", 9.49),
+	("Sheet", "King-size", 10.49),
+	("Pillow Cover", "Good value , good size deeply cleaned, ironed and folded perfectly.", 1.49);
 
 DROP TABLE IF EXISTS admin;
 create table admin(
@@ -35,6 +50,10 @@ create table admin(
 	PRIMARY KEY (adminID)
 );
 
+insert into admin (first_name, last_name, email, uname, pass, regdate, admin, business)
+values
+	("admin", "admin", "admin", "admin", "admin", "01-01-2014", 1, 0);
+
 DROP TABLE IF EXISTS businessCustomer;
 create table businessCustomer(
 	businessID int NOT NULL AUTO_INCREMENT,
@@ -42,7 +61,7 @@ create table businessCustomer(
 	email VARCHAR (50), 
 	uname VARCHAR (20), 
 	pass VARCHAR (20),
-	phone INT (2),
+	phone INT (12),
 	cAddress VARCHAR (100),
 	dAddress VARCHAR (100), 
 	regdate VARCHAR (10),
@@ -50,6 +69,10 @@ create table businessCustomer(
 	business INT (2),
 	PRIMARY KEY (businessID)
 );
+
+insert into businessCustomer (business_name, email, uname, pass, phone, cAddress, dAddress, regdate, admin, business)
+values
+	("business", "business", "business", "business", 11111, "business", "business", "01-01-2014", 0, 1);
 
 DROP TABLE IF EXISTS customer;
 create table customer(
@@ -59,7 +82,7 @@ create table customer(
 	email VARCHAR (50), 
 	uname VARCHAR (20), 
 	pass VARCHAR (20), 
-	phone INT (2),
+	phone INT (12),
 	address VARCHAR (100),
 	regdate VARCHAR (10),
 	admin INT (2),
@@ -67,12 +90,19 @@ create table customer(
 	PRIMARY KEY (customerID)
 );
 
-DROP TABLE IF EXISTS sessionHolder
+insert into customer (first_name, last_name, email, uname, pass, phone, address, regdate, admin, business)
+values
+	("customer", "customer", "customer", "customer", "customer", 11111, "customer", "01-01-2014", 0, 0);
+	
+DROP TABLE IF EXISTS sessionHolder;
 create table sessionHolder(
 	cDate VARCHAR(10),
 	cTime VARCHAR(10),
 	dDate VARCHAR(10),
 	dTime VARCHAR(10),
-	sysDate date
+	sysDate date,
+	user VARCHAR(10)
 );
 
+
+	
