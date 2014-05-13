@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=US-ASCII"
+    pageEncoding="US-ASCII"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+
+// if user is not logged in, redirect to index page
+<%
+    if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
+    	response.sendRedirect("index.jsp");
+    }
+%>
+
+<link rel="stylesheet" href="stylesheet.css">
+
+<title>Login successful!</title>
+</head>
+<body>
+<div id="headerbackground">
+	<div id="header">
+		<jsp:include page="header.jsp" />
+	</div>
+</div>
+<div id="banner">
+	<img src="images/banner.jpg">
+</div>
+<div id="contentbackground">
+	<div id="content" align="center">
+		<p><b>Customer Panel</b></p>
+		<p> Welcome to the customer panel.</p>
+		<p> Please select your collection and delivery dates and times.</p>
+		
+		<form action="order.jsp">
+  			<p>Collection date: <input type="date" name="cdate" required>
+  			<p><input type="radio" name="ctime" value="morning" required> 9am-12pm   </input>
+  			<input type="radio" name="ctime" value="afternoon"> 12pm-3pm   </input>
+  			<input type="radio" name="ctime" value="evening"> 3pm-6pm   </input></p>
+  			<p>Delivery date: <input type="date" name="ddate" required></p>
+  			<p><input type="radio" name="dtime" value="morning" required> 9am-12pm   </input>
+  			<input type="radio" name="dtime" value="afternoon"> 12pm-3pm   </input>
+  			<input type="radio" name="dtime" value="evening"> 3pm-6pm   </input></p>
+  			<input type="submit">
+  			
+  			
+		</form>
+		
+	</div>
+	
+	
+
+</div>
+
+</body>
+</html>
